@@ -10,9 +10,9 @@ function destructivelyPrependDriver(name){
 }
 
 function destructivelyRemoveLastDriver(){
-  drivers.push(name)
+  drivers.pop(name)
 }
 
 function destructivelyRemoveFirstDriver(){
-  drivers.push(name)
+  drivers.shift(name)
 }
