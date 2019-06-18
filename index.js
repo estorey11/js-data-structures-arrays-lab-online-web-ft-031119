@@ -29,6 +29,6 @@ function removeLastDriver(){
   drivers.shift(name)
 }
 
-function appendDriver(name){
+function removeFirstDriver(){
   drivers.shift(name)
 }
