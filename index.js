@@ -25,7 +25,7 @@ function prependDriver(name){
   drivers.shift(name)
 }
 
-function ppendDriver(name){
+function removeLastDriver(){
   drivers.shift(name)
 }
 
